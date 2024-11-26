@@ -1,7 +1,7 @@
 import mysql.connector
 
 class DBConnect:
-    def __init__(self,host="localhost",user="root",password="faith",database="employeemanagement"):
+    def __init__(self,host="localhost",user="root",password="root",database="employeemanagement"):
         # self.connection =None
         self.host=host
         self.user=user
